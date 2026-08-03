@@ -1,0 +1,29 @@
+.header {
+    background-color: brown;
+    height: 80px;
+    display: block;
+    margin: 0;
+}
+
+.hero-image {
+    background-image: url("./images/20240626_111923.jpg");
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text {
+    color: seashell;
+    position: absolute;
+    text-align: center;
+    top: 180px;
+    width: 100%;
+    font-size: 4rem;
+}
+
+.about {
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(243, 233, 218);
+}
