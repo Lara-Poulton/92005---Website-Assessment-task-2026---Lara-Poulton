@@ -14,7 +14,7 @@
 }
 
 .hero-text {
-    color: seashell;
+    color: rgb(248, 242, 231);
     position: absolute;
     text-align: center;
     top: 180px;
@@ -26,4 +26,23 @@
     text-align: center;
     padding: 15px;
     background-color: rgb(243, 233, 218);
+    color: rgb(87, 11, 11);
+}
+
+.two-column-layout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(160, 135, 111);
+}
+
+.intro-text {
+    text-align: center;
+    color: rgb(rgb(59, 33, 9));
+}
+
+.page-intro {
+    height: 300px;
 }
