@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
 .header {
     background-color: brown;
     height: 80px;
@@ -25,6 +30,8 @@
 .about {
     text-align: center;
     padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
     background-color: rgb(243, 233, 218);
     color: rgb(87, 11, 11);
 }
@@ -32,10 +39,10 @@
 .two-column-layout {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 100px;
-    width: 80%;
-    margin: auto;
-    background-color: rgb(160, 135, 111);
+    gap: 90px;
+    width: 100%;
+    max-width: 2000px; 
+    margin: 0;
 }
 
 .intro-text {
@@ -43,6 +50,25 @@
     color: rgb(rgb(59, 33, 9));
 }
 
+.intro-img {
+    height: 400px;
+    object-fit: cover;
+    width: 100%;
+    display: block;
+}
+
+.intro-img2 {
+    height: 400px;
+    object-fit: cover;
+    width: 100%;
+    display: block;
+}
+
 .page-intro {
-    height: 300px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    width: 100%;
+    overflow: hidden;
 }
