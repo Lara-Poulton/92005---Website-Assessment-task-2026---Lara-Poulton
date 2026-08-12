@@ -5,13 +5,33 @@
 }
 
 .header {
-    background-color: brown;
+    background-color: rgb(133, 34, 34);
     height: 80px;
     display: block;
 }
 
+.fa-home {
+    color: rgb(245, 222, 209);
+    font-size: 35px;
+    margin-right: auto;
+    text-align: left;
+}
+
+.navigation {
+    font-size: 1.5rem;
+    padding: 1.3rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    padding-right: 30px;
+}
+
+a {
+    color: rgb(245, 222, 209);
+}
+
 .hero-image {
-    background-image: url("./images/20240626_111923.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./images/20240626_111923.jpg");
     height: 350px;
     background-position: center;
     background-repeat: no-repeat;
@@ -45,7 +65,7 @@
 
 .intro-text {
     text-align: center;
-    color: rgb(66, 22, 14);
+    color: rgb(23, 17, 73);
     padding: 7px;
 }
 
@@ -79,6 +99,7 @@
     object-fit: cover;
     width: 100%;
     display: block;
+    object-position: center;
 }
 
 .img-section2 {
@@ -88,6 +109,7 @@
     object-fit: cover;
     width: 100%;
     display: block;
+    object-position: center;
 }
 
 .img-section3 {
@@ -97,6 +119,7 @@
     object-fit: cover;
     width: 100%;
     display: block;
+    object-position: center;
 }
 
 .img-section4 {
@@ -106,6 +129,7 @@
     object-fit: cover;
     width: 100%;
     display: block;
+    object-position: center;
 }
 
 .four-column-layout {
@@ -119,9 +143,10 @@
 }
 
 footer {
-    background-color: brown;
-    color: rgb(248, 242, 231);
+    background-color: rgb(133, 34, 34);
+    color: rgb(245, 222, 209);
     text-align: center;
     height: 60px;
     padding-top: 20px;
 }
+
