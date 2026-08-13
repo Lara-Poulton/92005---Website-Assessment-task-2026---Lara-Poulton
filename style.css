@@ -7,26 +7,24 @@
 .header {
     background-color: rgb(133, 34, 34);
     height: 80px;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
 }
 
 .fa-home {
     color: rgb(245, 222, 209);
     font-size: 35px;
-    margin-right: auto;
-    text-align: left;
 }
 
 .navigation {
     font-size: 1.5rem;
-    padding: 1.3rem;
     display: flex;
-    justify-content: flex-end;
     gap: 2rem;
-    padding-right: 30px;
 }
 
-a {
+.header a {
     color: rgb(245, 222, 209);
 }
 
@@ -44,7 +42,8 @@ a {
     text-align: center;
     top: 180px;
     width: 100%;
-    font-size: 4rem;
+    font-size: 5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .about {
@@ -66,7 +65,11 @@ a {
 .intro-text {
     text-align: center;
     color: rgb(23, 17, 73);
-    padding: 7px;
+    padding-top: 7px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
 }
 
 .intro-img {
@@ -93,43 +96,34 @@ a {
 }
 
 .img-section1 {
-    flex-direction: column;
-    overflow: hidden;
-    height: 300px;
-    object-fit: cover;
     width: 100%;
-    display: block;
-    object-position: center;
+    height: 300px; 
+    overflow: hidden;
 }
 
 .img-section2 {
-    flex-direction: column;
-    overflow: hidden;
-    height: 300px;
-    object-fit: cover;
     width: 100%;
-    display: block;
-    object-position: center;
+    height: 300px; 
+    overflow: hidden;
 }
 
 .img-section3 {
-    flex-direction: column;
-    overflow: hidden;
-    height: 300px;
-    object-fit: cover;
     width: 100%;
-    display: block;
+    height: 300px; 
+    overflow: hidden;
+}
+
+.four-column-layout img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     object-position: center;
 }
 
 .img-section4 {
-    flex-direction: column;
-    overflow: hidden;
-    height: 300px;
-    object-fit: cover;
     width: 100%;
-    display: block;
-    object-position: center;
+    height: 300px; 
+    overflow: hidden;
 }
 
 .four-column-layout {
@@ -137,7 +131,6 @@ a {
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
     width: 100%;
-    margin: 0;
     background-color: rgb(243, 233, 218);
     padding: 30px;
 }
