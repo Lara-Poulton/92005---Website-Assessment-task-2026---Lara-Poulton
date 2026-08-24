@@ -225,10 +225,12 @@ p {
 
 .white img {
     border: 5px solid bisque;
+    border-radius: 4px;
 }
 
 .beige img {
     border: 5px solid white;
+    border-radius: 4px;
 }
 
 footer h2 {
