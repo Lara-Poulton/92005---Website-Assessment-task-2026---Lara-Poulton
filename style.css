@@ -230,3 +230,8 @@ p {
 .beige img {
     border: 5px solid white;
 }
+
+footer h2 {
+    color: rgb(245, 222, 209);
+    font-size: 1.4rem;
+}
