@@ -46,11 +46,12 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.about {
+.about p {
     text-align: center;
     padding: 30px;
     background-color: rgb(243, 233, 218);
     color: rgb(87, 11, 11);
+    font-size: 1.2rem;
 }
 
 .two-intro-column-layout {
