@@ -224,6 +224,11 @@ p {
     text-align: justify;
 }
 
+.info {
+    max-height: 390px;
+    overflow-y: auto;
+}
+
 .white img {
     border: 5px solid bisque;
     border-radius: 4px;
