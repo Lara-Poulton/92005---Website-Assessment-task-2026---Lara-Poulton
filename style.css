@@ -4,6 +4,7 @@
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+/* This section styles the header (navigation bar). */
 .header {
     background-color: rgb(133, 34, 34);
     height: 80px;
@@ -28,6 +29,7 @@
     color: rgb(245, 222, 209);
 }
 
+/* This section styles the hero section. */
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./images/20240626_111923.jpg");
     height: 350px;
@@ -46,6 +48,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* This section styles the about section. */
 .about p {
     text-align: center;
     padding: 30px;
@@ -54,6 +57,7 @@
     font-size: 1.2rem;
 }
 
+/* This section styles the intro section. */
 .two-intro-column-layout {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -96,6 +100,7 @@
     overflow: hidden;
 }
 
+/* This section styles the 4/3 column image sections. */
 .img-section1 {
     width: 100%;
     height: 300px; 
@@ -136,14 +141,23 @@
     padding: 30px;
 }
 
-footer {
-    background-color: rgb(133, 34, 34);
-    color: rgb(245, 222, 209);
-    text-align: center;
-    height: 60px;
-    padding-top: 20px;
+.three-column-layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    width: 100%;
+    background-color: rgb(243, 233, 218);
+    padding: 30px;
 }
 
+.three-column-layout img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* This section styles the subpage hero sections. */
 .sub-hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./images/20240626_111235.jpg");
     height: 300px;
@@ -162,6 +176,11 @@ footer {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+#activities {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/20240626_101530.jpg");
+}
+
+/* This section styles the two column sections. */
 .two-column-layout {
     display: grid;
     grid-template-columns: 3fr 2fr;
@@ -188,40 +207,9 @@ footer {
     height: 240px;
 }
 
-.three-column-layout {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    width: 100%;
-    background-color: rgb(243, 233, 218);
-    padding: 30px;
-}
-
-.three-column-layout img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-}
-
-h2 {
-    padding-bottom: 7px;
-    color: rgb(87, 11, 11);
-    font-size: clamp(20px, 4vw, 30px);
-}
-
 .two-column-layout p {
     font-size: clamp(14px, 1.5vw, 18px);
     line-height: 1.3;
-}
-
-
-#activities {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/20240626_101530.jpg");
-}
-
-p {
-    text-align: justify;
 }
 
 .info {
@@ -229,6 +217,18 @@ p {
     overflow-y: auto;
 }
 
+/* This section styles the text throughout. */
+h2 {
+    padding-bottom: 7px;
+    color: rgb(87, 11, 11);
+    font-size: clamp(20px, 4vw, 30px);
+}
+
+p {
+    text-align: justify;
+}
+
+/* This section styles borders on the images throughout. */
 .white img {
     border: 5px solid bisque;
     border-radius: 4px;
@@ -239,8 +239,16 @@ p {
     border-radius: 4px;
 }
 
-this section styles for footer
+/* This section styles the footer. */
 footer h2 {
     color: rgb(245, 222, 209);
     font-size: 1.4rem;
+}
+
+footer {
+    background-color: rgb(133, 34, 34);
+    color: rgb(245, 222, 209);
+    text-align: center;
+    height: 60px;
+    padding-top: 20px;
 }
